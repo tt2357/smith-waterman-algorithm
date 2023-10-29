@@ -32,17 +32,17 @@ def backtrackMatrix(seq1, seq2):
   return matrix
 
 def fillMatrix(matrix,bMatrix, seq1, seq2,match,indel,mismatch):
-  mList = ["0", "LEFTUP", "UP", "LEFT"]
+  mList = ["0", "UP", "LEFT","LEFTUP"]
   oList = []
   for i in range(1,len(seq1)+1):
     for j in range(1,len(seq2)+1):
       oList.append(0)
+      oList.append(matrix[i-1][j] + indel)
+      oList.append(matrix[i][j-1] + indel)
       if(seq1[i-1] == seq2[j-1]):
         oList.append(matrix[i-1][j-1] + match)
       else:
         oList.append(matrix[i-1][j-1] + mismatch)
-      oList.append(matrix[i-1][j] + indel)
-      oList.append(matrix[i][j-1] + indel)
       matrix[i][j] = max(oList)
       print(oList)
       bMatrix[i][j] = mList[oList.index(max(oList))]
