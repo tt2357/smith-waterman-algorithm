@@ -57,7 +57,7 @@ def fillMatrix(matrix,bMatrix, seq1, seq2,match,gap,mismatch):
       else:
         oList.append(matrix[i-1][j-1] + mismatch)
       matrix[i][j] = max(oList)
-      print(oList)
+      # print(oList)
       bMatrix[i][j] = mList[oList.index(max(oList))]
       oList.clear()
 
@@ -71,8 +71,8 @@ def fillMatrix(matrix,bMatrix, seq1, seq2,match,gap,mismatch):
   #   for element in row:
   #     print(element, end="\t")
   #   print()
-  # print("max value: ", matrix.max()) #SCORE
-  # print("max index: ", np.unravel_index(np.argmax(matrix), matrix.shape))
+  print("max value: ", matrix.max()) #SCORE
+  print("max index: ", np.unravel_index(np.argmax(matrix), matrix.shape))
 ####################################################
 
 ############## WRITING THE OUTCOME ###################
@@ -86,10 +86,19 @@ def outSeq(matrix, seq1, seq2,bMatrix):
           f.write(seq1[maxIndex[0]-1]+"*"+seq2[maxIndex[1]-1]+"\n")
         else:
           f.write(seq1[maxIndex[0]-1]+"|"+seq2[maxIndex[1]-1]+"\n")
-
         maxIndex = (maxIndex[0]-1,maxIndex[1]-1)
+        
+      elif(bMatrix[maxIndex[0]][maxIndex[1]] == "LEFT"):
+         f.write(seq2[maxIndex[1]-1]+" _\n")
+         maxIndex = (maxIndex[0],maxIndex[1]-1)
+
+      elif(bMatrix[maxIndex[0]][maxIndex[1]] == "UP"):
+        f.write("_ "+seq1[maxIndex[0]-1]+"\n")
+        maxIndex = (maxIndex[0]-1,maxIndex[1])
+        
       else:
-        break
+         break
+    
 ####################################################
 
 
@@ -97,3 +106,10 @@ matrix = createMatrix(seq1, seq2)
 bMatrix = backtrackMatrix(seq1, seq2)
 fillMatrix(matrix,bMatrix, seq1, seq2,match,gap,mismatch)
 outSeq(matrix, seq1, seq2,bMatrix)
+
+with open('outcome.txt', 'r') as f:
+    lines = f.readlines()
+
+with open('outcome.txt', 'w') as f:
+    for line in reversed(lines):
+        f.write(line)
