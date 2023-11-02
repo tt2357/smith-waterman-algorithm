@@ -6,7 +6,7 @@ W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienn
 
 # PRZYKŁADY UŻYCIA:
 
-## 1. Wprowadzone sekwencje: ACCGTGA, GTGAATA\
+## 1. Wprowadzone sekwencje: ACCGTGA, GTGAATA
    Oczekiwany wynik score: 4\
 \
    Rzeczywiste wyjście programu:\
@@ -18,7 +18,7 @@ W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienn
    SCORE: 4\
    Program wykonał dopasowanie poprawnie.\
 
-## 2. Wprowadzone sekwencje: CCGATCGGATGCGATATATAACTG, TTTAGATGCATCTCTCAGCATGA\
+## 2. Wprowadzone sekwencje: CCGATCGGATGCGATATATAACTG, TTTAGATGCATCTCTCAGCATGA
    Oczekiwany wynik score: 7\
 \
    Rzeczywiste wyjście programu:\
@@ -45,7 +45,7 @@ W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienn
    SCORE: 7\
    Program wykonał dopasowanie poprawnie.\
 
-## 3. Wprowadzone sekwencje: GGAATTACGATTAGGATCGAT, TTTTGAGCTAGCGCGCGCAGTTT\
+## 3. Wprowadzone sekwencje: GGAATTACGATTAGGATCGAT, TTTTGAGCTAGCGCGCGCAGTTT
    Oczekiwany wynik score: 3\
 \
    Rzeczywiste wyjście programu:\
@@ -58,7 +58,7 @@ W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienn
    SCORE: 3\
    Program wykonał dopasowanie poprawnie.\
 
-## 4. Wprowadzone sekwencje: TAGAGTGAC, TAGATAGAGGCGGCATTA\
+## 4. Wprowadzone sekwencje: TAGAGTGAC, TAGATAGAGGCGGCATTA
    Oczekiwany wynik score: 5\
 \
    Rzeczywiste wyjście programu:\
@@ -73,4 +73,4 @@ W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienn
    A\*A\
 \
    SCORE: 5\
-   Program wykonał dopasowanie poprawnie.\
+   Program wykonał dopasowanie poprawnie.
