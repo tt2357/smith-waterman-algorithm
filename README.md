@@ -27,7 +27,7 @@ PRZYKŁADY UŻYCIA:
    T*T
    G*G
    C*C
-   G \_
+   G _
    A*A
    T*T
    C|A
@@ -37,7 +37,7 @@ PRZYKŁADY UŻYCIA:
    C|A
    A*A
    _ G
-   C\*C
+   C*C
    _ A
    T*T
    G*G
@@ -51,7 +51,7 @@ PRZYKŁADY UŻYCIA:
    Rzeczywiste wyjście programu:
    T*T
    T*T
-   \_ G
+   _ G
    A*A
    G*G
 
@@ -67,7 +67,7 @@ PRZYKŁADY UŻYCIA:
    G*G
    A*A
    G _
-   T\*T
+   T*T
    _ A
    G*G
    A*A
