@@ -10,10 +10,10 @@ PRZYKŁADY UŻYCIA:
    Oczekiwany wynik score: 4
 
    Rzeczywiste wyjście programu:
-   G*G
-   T*T
-   G*G
-   A*A
+   G\*G
+   T\*T
+   G\*G
+   A\*A
 
    SCORE: 4
    Program wykonał dopasowanie poprawnie.
