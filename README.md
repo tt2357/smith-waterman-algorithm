@@ -22,24 +22,24 @@ PRZYKŁADY UŻYCIA:
    Oczekiwany wynik score: 7
 
    Rzeczywiste wyjście programu:
-   G*G
-   A*A
-   T*T
-   G*G
-   C*C
+   G\*G
+   A\*A
+   T\*T
+   G\*G
+   C\*C
    G _
-   A*A
-   T*T
+   A\*A
+   T\*T
    C|A
-   T*T
+   T\*T
    C|A
-   T*T
+   T\*T
    C|A
-   A*A
+   A\*A
    _ G
-   C*C
+   C\*C
    _ A
-   T*T
+   T\*T
    G*G
 
    SCORE: 7
@@ -49,11 +49,11 @@ PRZYKŁADY UŻYCIA:
    Oczekiwany wynik score: 3
 
    Rzeczywiste wyjście programu:
-   T*T
-   T*T
+   T\*T
+   T\*T
    _ G
-   A*A
-   G*G
+   A\*A
+   G\*G
 
    SCORE: 3
    Program wykonał dopasowanie poprawnie.
@@ -62,15 +62,15 @@ PRZYKŁADY UŻYCIA:
    Oczekiwany wynik score: 5
 
    Rzeczywiste wyjście programu:
-   T*T
-   A*A
-   G*G
-   A*A
+   T\*T
+   A\*A
+   G\*G
+   A\*A
    G _
-   T*T
+   T\*T
    _ A
-   G*G
-   A*A
+   G\*G
+   A\*A
 
    SCORE: 5
    Program wykonał dopasowanie poprawnie.
