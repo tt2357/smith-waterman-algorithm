@@ -16,7 +16,7 @@ W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienn
    A\*A\
 \
    SCORE: 4\
-   Program wykonał dopasowanie poprawnie.\
+   Program wykonał dopasowanie poprawnie.
 
 ## 2. Wprowadzone sekwencje: CCGATCGGATGCGATATATAACTG, TTTAGATGCATCTCTCAGCATGA
    Oczekiwany wynik score: 7\
@@ -43,7 +43,7 @@ W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienn
    G*G\
 \
    SCORE: 7\
-   Program wykonał dopasowanie poprawnie.\
+   Program wykonał dopasowanie poprawnie.
 
 ## 3. Wprowadzone sekwencje: GGAATTACGATTAGGATCGAT, TTTTGAGCTAGCGCGCGCAGTTT
    Oczekiwany wynik score: 3\
@@ -56,7 +56,7 @@ W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienn
    G\*G\
 \
    SCORE: 3\
-   Program wykonał dopasowanie poprawnie.\
+   Program wykonał dopasowanie poprawnie.
 
 ## 4. Wprowadzone sekwencje: TAGAGTGAC, TAGATAGAGGCGGCATTA
    Oczekiwany wynik score: 5\
