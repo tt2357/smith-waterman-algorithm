@@ -1,5 +1,6 @@
 # URUCHOMIENIE PROGRAMU:
 
+Wymagany jest pakiet Numpy\
 Program uruchamiamy poleceniem w terminalu zgodnie ze schematem:
 "python smith-waterman.py _NAZWA PLIKU FASTA_"
 "python smith-waterman.py _NAZWA PLIKU FASTA_".\
