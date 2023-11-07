@@ -46,7 +46,7 @@ W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienn
    _ A\
    T\*T\
    G*G\
-\
+   
    Rzeczywiste wyjście programu:\
    G\*G\
    A\*A\
@@ -67,7 +67,6 @@ W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienn
    _ A\
    T\*T\
    G*G\
-\
    SCORE: 7\
    Program wykonał dopasowanie poprawnie.
 
@@ -79,14 +78,12 @@ W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienn
    _ G\
    A\*A\
    G\*G\
-\
    Rzeczywiste wyjście programu:\
    T\*T\
    T\*T\
    _ G\
    A\*A\
    G\*G\
-\
    SCORE: 3\
    Program wykonał dopasowanie poprawnie.
 
@@ -102,7 +99,6 @@ W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienn
    _ A\
    G\*G\
    A\*A\
-\
    Rzeczywiste wyjście programu:\
    T\*T\
    A\*A\
@@ -113,6 +109,5 @@ W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienn
    _ A\
    G\*G\
    A\*A\
-\
    SCORE: 5\
    Program wykonał dopasowanie poprawnie.
