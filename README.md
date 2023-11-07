@@ -1,6 +1,6 @@
 # URUCHOMIENIE PROGRAMU:
 
-Wymagany jest pakiet Numpy.
+Wymagany jest pakiet Numpy.\
 Program uruchamiamy poleceniem w terminalu zgodnie ze schematem:
 "python smith-waterman.py _NAZWA PLIKU FASTA_".\
 W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienne odpowiadające im figurują w pliku .py na samej górze.
