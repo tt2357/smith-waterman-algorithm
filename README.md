@@ -46,7 +46,6 @@ W razie potrzeby możliwa jest zmiana wartości match, mismatch oraz gap, zmienn
    _ A\
    T\*T\
    G*G\
-   
    Rzeczywiste wyjście programu:\
    G\*G\
    A\*A\
